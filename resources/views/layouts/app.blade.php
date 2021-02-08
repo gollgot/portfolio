@@ -6,8 +6,7 @@
 
         <title>Portfolio</title>
 
-
-        </style>
+        <link href="/css/app.css" rel="stylesheet">
     </head>
     <body>
         <h1>Portfolio</h1>
