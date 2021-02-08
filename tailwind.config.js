@@ -7,7 +7,12 @@ module.exports = {
     ],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+        colors: {
+            'anthracite': '#444649',
+            'bordeaux': '#A4161A'
+        }
+    },
   },
   variants: {
     extend: {},

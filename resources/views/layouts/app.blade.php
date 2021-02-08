@@ -12,11 +12,13 @@
     </head>
     <body>
 
-    <div class="float-right mt-4 mr-4">
-        <a href="{{ route(Route::currentRouteName(), 'en') }}">EN</a> | <a href="{{ route(Route::currentRouteName(), 'fr') }}">FR</a>
-    </div>
+        <!-- Languages -->
+        <div class="float-right mt-4 mr-4 font-light">
+            <a class="{{ App::getLocale() == 'en' ? 'font-bold' : '' }}" href="{{ route(Route::currentRouteName(), 'en') }}">EN</a> | <a class="{{ App::getLocale() == 'fr' ? 'font-bold' : '' }}" href="{{ route(Route::currentRouteName(), 'fr') }}">FR</a>
+        </div>
 
 
-    <h1>{{ __('pages.title') }}</h1>
+        <h1>{{ __('pages.title') }}</h1>
+
     </body>
 </html>

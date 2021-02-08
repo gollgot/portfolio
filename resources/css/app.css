@@ -3,3 +3,8 @@
 @import "tailwindcss/components";
 
 @import "tailwindcss/utilities";
+
+body {
+    font-family: 'Roboto', sans-serif;
+    @apply text-anthracite;
+}
