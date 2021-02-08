@@ -6,9 +6,15 @@
 
         <title>Portfolio</title>
 
-        <link href="/css/app.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
     </head>
     <body>
-        <h1>Portfolio</h1>
+
+    <div class="float-right mt-4 mr-4">
+        <a href="{{ route(Route::currentRouteName(), 'en') }}">EN</a> | <a href="{{ route(Route::currentRouteName(), 'fr') }}">FR</a>
+    </div>
+
+
+    <h1>{{ __('pages.title') }}</h1>
     </body>
 </html>
