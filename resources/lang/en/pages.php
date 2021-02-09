@@ -2,6 +2,13 @@
 
 return [
 
-    'title' => 'Portfolio EN',
+    'home' => [
+
+        'heroSection' => [
+            'title' => 'Software Engineering - BASc Student',
+            'subtitle' => 'I code beautiful apps, and I love what I do. ',
+        ]
+
+    ]
 
 ];
