@@ -31,6 +31,10 @@ return [
             'languagesTitle' => 'Langues que je parle',
             'frameworksTitle' => 'Frameworks / Librairies',
             'toolsTitle' => 'Outils'
+        ],
+
+        'projectsSection' => [
+            'title' => 'Projets'
         ]
 
     ]

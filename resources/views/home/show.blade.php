@@ -26,7 +26,7 @@
     </section>
 
     <!-- About Section -->
-    <section class="px-4 mb-40">
+    <section class="px-4">
         <div class="container mx-auto -mt-12 py-10 p-16 bg-white shadow-lg rounded-3xl">
 
             <div class="text-center">
@@ -87,4 +87,20 @@
 
         </div>
     </section>
+
+    <!-- Projects Section -->
+    <section>
+        <div class="container mx-auto mt-10">
+
+            <div class="text-center">
+                <h1 class="section-title">{{ __('pages.home.projectsSection.title') }}</h1>
+            </div>
+
+            <div class="h-40 text-center">
+                ...
+            </div>
+
+        </div>
+    </section>
+
 @endsection
