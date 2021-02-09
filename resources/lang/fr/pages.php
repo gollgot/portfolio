@@ -16,6 +16,16 @@ return [
                     molestie elit, id rutrum arcu elit eu nulla. Vestibulum euismod non elit quis malesuada. Proin varius
                     posuere augue, ut cursus quam euismod id. Sed bibendum orci et leo molestie, tempus posuere libero
                     mattis. Aliquam massa libero, cursus eget tristique in, malesuada at ipsum.',
+        ],
+
+        'aboutSection' => [
+            'title' => 'A propos',
+            'quality1Title' => 'FR - Lorem Ipsum 1',
+            'quality1Text' => 'FR - 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+            'quality2Title' => 'FR - Lorem Ipsum 2',
+            'quality2Text' => 'FR - 2 Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+            'quality3Title' => 'FR - Lorem Ipsum 3',
+            'quality3Text' => 'FR - 3 Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
         ]
 
     ]

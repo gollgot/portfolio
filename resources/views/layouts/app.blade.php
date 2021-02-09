@@ -39,7 +39,30 @@
 
         <!-- About Section -->
         <section class="px-4 mb-40">
-            <div class="container mx-auto -mt-12 bg-white shadow-lg rounded-3xl h-64">
+            <div class="container mx-auto -mt-12 px-4 pt-6 pb-10 bg-white shadow-lg rounded-3xl">
+
+                <div class="text-center">
+                    <h1 class="section-title">{{ __('pages.home.aboutSection.title') }}</h1>
+                </div>
+
+                <div class="flex flex-wrap px-6 md:px-20 mt-10 text-center">
+
+                    <div class="quality">
+                        <h2 class="section-subtitle">{{ __('pages.home.aboutSection.quality1Title') }}</h2>
+                        <p class="section-text">{{ __('pages.home.aboutSection.quality1Text') }}</p>
+                    </div>
+
+                    <div class="quality">
+                        <h2 class="section-subtitle">{{ __('pages.home.aboutSection.quality2Title') }}</h2>
+                        <p class="section-text">{{ __('pages.home.aboutSection.quality2Text') }}</p>
+                    </div>
+
+                    <div class="quality">
+                        <h2 class="section-subtitle">{{ __('pages.home.aboutSection.quality3Title') }}</h2>
+                        <p class="section-text">{{ __('pages.home.aboutSection.quality3Text') }}</p>
+                    </div>
+
+                </div>
 
             </div>
         </section>

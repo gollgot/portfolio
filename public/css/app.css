@@ -31534,6 +31534,37 @@ body {
   color: rgba(68, 70, 73, var(--tw-text-opacity));
 }
 
+.section-title {
+  --tw-border-opacity: 1;
+  border-color: rgba(68, 70, 73, var(--tw-border-opacity));
+  border-bottom-width: 2px;
+  display: inline-block;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  text-transform: uppercase;
+}
+
+.quality {
+  flex: 1 1 0%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.section-subtitle {
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.section-text {
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  margin-top: 0.5rem;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;

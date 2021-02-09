@@ -16,6 +16,16 @@ return [
                     molestie elit, id rutrum arcu elit eu nulla. Vestibulum euismod non elit quis malesuada. Proin varius
                     posuere augue, ut cursus quam euismod id. Sed bibendum orci et leo molestie, tempus posuere libero
                     mattis. Aliquam massa libero, cursus eget tristique in, malesuada at ipsum.',
+        ],
+
+        'aboutSection' => [
+            'title' => 'About',
+            'quality1Title' => 'Lorem Ipsum 1',
+            'quality1Text' => '1 Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+            'quality2Title' => 'Lorem Ipsum 2',
+            'quality2Text' => '2 Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+            'quality3Title' => 'Lorem Ipsum 3',
+            'quality3Text' => '3 Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
         ]
 
     ]

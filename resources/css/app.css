@@ -8,3 +8,19 @@ body {
     font-family: 'Roboto', sans-serif;
     @apply text-anthracite;
 }
+
+.section-title {
+    @apply text-3xl uppercase border-b-2 inline-block border-anthracite;
+}
+
+.quality {
+    @apply flex-1 py-4 px-10;
+}
+
+.section-subtitle {
+    @apply text-xl font-medium;
+}
+
+.section-text {
+    @apply text-lg font-normal mt-2;
+}
