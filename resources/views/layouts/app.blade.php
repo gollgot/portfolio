@@ -33,5 +33,12 @@
             </div>
         </section>
 
+        <!-- About Section -->
+        <section class="px-4 mb-40">
+            <div class="container mx-auto -mt-12 bg-white shadow-lg rounded-3xl h-64">
+
+            </div>
+        </section>
+
     </body>
 </html>
