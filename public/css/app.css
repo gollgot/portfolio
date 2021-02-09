@@ -31564,6 +31564,35 @@ body {
   line-height: 1.75rem;
 }
 
+.footer-link:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+}
+
+.footer-link {
+  --tw-border-opacity: 1;
+  border-color: rgba(255, 255, 255, var(--tw-border-opacity));
+  border-radius: 9999px;
+  border-width: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.5rem;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+
+.footer-link:hover {
+  --tw-text-opacity: 1;
+  color: rgba(164, 22, 26, var(--tw-text-opacity));
+}
+
+.footer-link {
+  width: 3.5rem;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;

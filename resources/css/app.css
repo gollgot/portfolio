@@ -24,3 +24,7 @@ body {
 .section-text {
     @apply text-lg font-normal;
 }
+
+.footer-link {
+    @apply rounded-full border-2 border-white flex items-center justify-center w-14 h-14 text-white text-3xl hover:bg-white hover:text-bordeaux;
+}

@@ -18,10 +18,28 @@
             <a class="{{ App::getLocale() != 'fr' ? 'font-bold' : '' }}" href="{{ route(Route::currentRouteName(), 'en') }}">EN</a> | <a class="{{ App::getLocale() == 'fr' ? 'font-bold' : '' }}" href="{{ route(Route::currentRouteName(), 'fr') }}">FR</a>
         </div>
 
+        <!-- Content -->
         @yield('content')
 
-        <footer>
-            Footer
+        <!-- Footer -->
+        <footer class="bg-bordeaux pt-20 pb-10">
+            <div class="container mx-auto text-center text-white font-light">
+
+                <!-- Links -->
+                <div class="flex justify-center mb-8">
+                    <a class="footer-link mr-4" href="https://github.com/gollgot" target="_blank" title="Github">
+                        <i class="fab fa-github"></i>
+                    </a>
+
+                    <a class="footer-link ml-4" href="https://linkedin.com/in/loïc-dessaules-44232b1b1/" target="_blank" title="Linkedin">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+
+                <!-- Copyrights -->
+                <span>{{ __('pages.footer.copyrights') }} © {{ now()->year }}</span>
+
+            </div>
         </footer>
 
     </body>

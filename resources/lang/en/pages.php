@@ -37,6 +37,10 @@ return [
             'title' => 'Projects'
         ]
 
+    ],
+
+    'footer' => [
+        'copyrights' => 'Handcrafted by me'
     ]
 
 ];
