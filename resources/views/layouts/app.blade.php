@@ -8,6 +8,7 @@
 
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+        <link href="/css/fontawesome-all.min.css" rel="stylesheet">
         <link href="/css/app.css" rel="stylesheet">
     </head>
     <body>
@@ -39,34 +40,64 @@
 
         <!-- About Section -->
         <section class="px-4 mb-40">
-            <div class="container mx-auto -mt-12 px-4 pt-6 pb-10 bg-white shadow-lg rounded-3xl">
+            <div class="container mx-auto -mt-12 py-10 p-16 bg-white shadow-lg rounded-3xl">
 
                 <div class="text-center">
                     <h1 class="section-title">{{ __('pages.home.aboutSection.title') }}</h1>
                 </div>
 
                 <!-- Qualitites -->
-                <div class="lg:flex lg:flex-wrap px-6 md:px-20 mt-6 text-center">
+                <div class="lg:flex lg:flex-wrap px-6 md:px-20 mt-6 text-center border-b-2 border-dotted pb-6">
 
                     <div class="quality">
                         <img class="m-auto w-24" src="{{ asset('images/quality1.png') }}" alt="Quality-heart">
                         <h2 class="mt-6 section-subtitle">{{ __('pages.home.aboutSection.quality1Title') }}</h2>
-                        <p class="section-text">{{ __('pages.home.aboutSection.quality1Text') }}</p>
+                        <p class="section-text mt-2">{{ __('pages.home.aboutSection.quality1Text') }}</p>
                     </div>
 
                     <div class="quality">
                         <img class="m-auto w-24" src="{{ asset('images/quality1.png') }}" alt="Quality-heart">
                         <h2 class="mt-6 section-subtitle">{{ __('pages.home.aboutSection.quality2Title') }}</h2>
-                        <p class="section-text">{{ __('pages.home.aboutSection.quality2Text') }}</p>
+                        <p class="section-text mt-2">{{ __('pages.home.aboutSection.quality2Text') }}</p>
                     </div>
 
                     <div class="quality">
                         <img class="m-auto w-24" src="{{ asset('images/quality1.png') }}" alt="Quality-heart">
                         <h2 class="mt-6 section-subtitle">{{ __('pages.home.aboutSection.quality3Title') }}</h2>
-                        <p class="section-text">{{ __('pages.home.aboutSection.quality3Text') }}</p>
+                        <p class="section-text mt-2">{{ __('pages.home.aboutSection.quality3Text') }}</p>
                     </div>
 
                 </div>
+
+                <div class="w-3/4 m-auto">
+                    <!-- Languages -->
+                    <div class="mt-10 flex">
+                        <i class="text-bordeaux text-3xl mr-6 mt-2 fas fa-code"></i>
+                        <div>
+                            <h2 class="section-subtitle">{{ __('pages.home.aboutSection.languagesTitle') }}</h2>
+                            <p class="section-text">C, C++, Java, PHP, Go, HTML, CSS, Javascript</p>
+                        </div>
+                    </div>
+
+                    <!-- Frameworks -->
+                    <div class="flex mt-6 xl:mt-4 xl:text-right xl:flex-row-reverse">
+                        <i class="text-bordeaux text-3xl mr-6 mt-2 xl:ml-6 xl:mr-0 fas fa-toolbox"></i>
+                        <div>
+                            <h2 class="section-subtitle">{{ __('pages.home.aboutSection.frameworksTitle') }}</h2>
+                            <p class="section-text">Laravel, Symfony, Slim, Lumen, Bootstrap, Tailwind</p>
+                        </div>
+                    </div>
+
+                    <!-- Tools -->
+                    <div class="mt-6 flex xl:mt-4">
+                        <i class="text-bordeaux text-3xl mr-6 mt-2 fas fa-tools"></i>
+                        <div>
+                            <h2 class="section-subtitle">{{ __('pages.home.aboutSection.toolsTitle') }}</h2>
+                            <p class="section-text">Jetbrains, Figma, Postman, GitKraken, Github, Gitlab</p>
+                        </div>
+                    </div>
+                </div>
+
 
             </div>
         </section>

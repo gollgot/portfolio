@@ -22,5 +22,5 @@ body {
 }
 
 .section-text {
-    @apply text-lg font-normal mt-2;
+    @apply text-lg font-normal;
 }

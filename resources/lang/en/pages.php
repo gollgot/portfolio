@@ -26,6 +26,9 @@ return [
             'quality2Text' => '2 Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
             'quality3Title' => 'Lorem Ipsum 3',
             'quality3Text' => '3 Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+            'languagesTitle' => 'Languages I speak',
+            'frameworksTitle' => 'Frameworks / Librairies',
+            'toolsTitle' => 'Tools'
         ]
 
     ]
