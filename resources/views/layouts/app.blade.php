@@ -18,11 +18,15 @@
         </div>
 
         <!-- Hero Section -->
-        <section class="text-center p-5">
+        <section class="text-center p-5 relative">
             <h1 class="text-4xl font-bold mt-20">{{ __('pages.home.heroSection.title') }}</h1>
             <h2 class="text-lg font-thin mt-4">{{ __('pages.home.heroSection.subtitle') }}</h2>
             <img class="mt-10 h-56 m-auto" src="{{ asset('images/avatar.png') }}" alt="Avatar">
-            <img class="mt-24 m-auto" src="{{ asset('images/hero.svg') }}" alt="Hero-image">
+
+            <div class="flex justify-center mt-80">
+                <img class="absolute bottom-0" src="{{ asset('images/hero.svg') }}" alt="Hero-image">
+            </div>
+
         </section>
 
         <!-- Intro Section -->
