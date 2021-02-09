@@ -21,7 +21,7 @@ Route::redirect('/', '/en');
 Route::group(['prefix' => '{lang}'], function () {
 
     Route::get('/', function () {
-        return view('layouts/app');
+        return view('home/show');
     })->name('home');
 
 });
