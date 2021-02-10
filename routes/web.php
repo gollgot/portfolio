@@ -3,6 +3,7 @@
 use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Route;
+use TCG\Voyager\Facades\Voyager;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,6 +15,10 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group (can be found in "app/Http/Kernel.php"). Now create something great!
 |
 */
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+});
 
 // Redirect if no lang typed
 Route::redirect('/', '/en');
