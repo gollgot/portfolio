@@ -107,7 +107,7 @@
                 <div class="mt-5 mb-10 flex justify-around flex-wrap">
 
                     @foreach ($projects as $project)
-                        <a href="#">
+                        <a href="{{ route('projects.show', [App::getLocale(), $project->slug]) }}">
                             <div class="project" style="background-image: url({{ is_null($project->previewImage) ? asset('images/no_image.png') : asset('storage/'.$project->previewImage) }})">
                                 <div class="project--hover text-center">
                                     <h2 class="text-xl font-bold">{{ $project->name }}</h2>

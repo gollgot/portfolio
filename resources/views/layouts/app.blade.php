@@ -15,7 +15,10 @@
 
         <!-- Switch Languages -->
         <div class="text-right mt-4 mr-4 mb-20 font-light">
-            <a class="{{ App::getLocale() != 'fr' ? 'font-bold' : '' }}" href="{{ route(Route::currentRouteName(), 'en') }}">EN</a> | <a class="{{ App::getLocale() == 'fr' ? 'font-bold' : '' }}" href="{{ route(Route::currentRouteName(), 'fr') }}">FR</a>
+            {{-- URL : portfolio/en (home page) has only one param {lang} --}}
+            {{-- URL : portfolio/en/projects/broken-feature (project page) has two params {lang} and {slug} --}}
+            {{-- So, we have to generate the route with one param if $project is not set, and the route with two params if project is set --}}
+            <a class="{{ App::getLocale() != 'fr' ? 'font-bold' : '' }}" href="{{ isset($project) ? route(Route::currentRouteName(), ['en', $project->slug]) : route(Route::currentRouteName(), 'en') }}">EN</a> | <a class="{{ App::getLocale() == 'fr' ? 'font-bold' : '' }}" href="{{ isset($project) ? route(Route::currentRouteName(), ['fr', $project->slug]) : route(Route::currentRouteName(), 'fr') }}">FR</a>
         </div>
 
         <!-- Content -->

@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\ProjectController;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Route;
 use TCG\Voyager\Facades\Voyager;
@@ -16,9 +17,13 @@ use TCG\Voyager\Facades\Voyager;
 |
 */
 
+// Laravel Voyager admin routes
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
+
+
+
 
 // Redirect if no lang typed
 Route::redirect('/', '/en');
@@ -28,5 +33,8 @@ Route::group(['prefix' => '{lang}'], function () {
 
     // Home page
     Route::get('/', [HomeController::class, 'show'])->name('home.show');
+
+    // Projects
+    Route::get('/projects/{slug}', [ProjectController::class, 'show'])->name('projects.show');
 
 });
