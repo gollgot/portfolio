@@ -5,6 +5,7 @@
 @endsection
 
 @section('content')
+
     <!-- Hero Section -->
     <section class="text-center p-5 mt-20 relative">
         <h1 class="text-4xl font-bold">{{ __('pages.home.heroSection.title') }}</h1>
