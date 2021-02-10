@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Route;
 
@@ -20,8 +21,7 @@ Route::redirect('/', '/en');
 // Add a SetLanguage middleware to all web routes in kernel that set the language
 Route::group(['prefix' => '{lang}'], function () {
 
-    Route::get('/', function () {
-        return view('home/show');
-    })->name('home');
+    // Home page
+    Route::get('/', [HomeController::class, 'show'])->name('home.show');
 
 });
