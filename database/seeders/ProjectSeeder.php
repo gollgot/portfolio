@@ -27,7 +27,8 @@ class ProjectSeeder extends Seeder
             'sources' => null,
             'online' => true,
             'images' => null,
-            'created_at' => Carbon::now()
+            'created_at' => Carbon::now(),
+            'slug' => 'avia-sion'
         ]);
 
         DB::table('projects')->insert([
@@ -42,7 +43,8 @@ class ProjectSeeder extends Seeder
             'sources' => 'https://gitlab.com/broken-feature',
             'online' => true,
             'images' => null,
-            'created_at' => Carbon::now()
+            'created_at' => Carbon::now(),
+            'slug' => 'broken-feature'
         ]);
 
         DB::table('projects')->insert([
@@ -57,7 +59,8 @@ class ProjectSeeder extends Seeder
             'sources' => 'https://github.com/gollgot/MCR_BobTheRacer',
             'online' => true,
             'images' => null,
-            'created_at' => Carbon::now()
+            'created_at' => Carbon::now(),
+            'slug' => 'bob-the-racer'
         ]);
 
         DB::table('projects')->insert([
@@ -72,7 +75,8 @@ class ProjectSeeder extends Seeder
             'sources' => null,
             'online' => true,
             'images' => null,
-            'created_at' => Carbon::now()
+            'created_at' => Carbon::now(),
+            'slug' => 'deezer-streaming'
         ]);
     }
 }
