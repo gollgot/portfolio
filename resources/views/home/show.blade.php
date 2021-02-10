@@ -108,7 +108,7 @@
 
                     @foreach ($projects as $project)
                         <a href="#">
-                            <div class="project" style="background-image: url({{ asset('images/project_background_test.png') }})">
+                            <div class="project" style="background-image: url({{ is_null($project->previewImage) ? asset('images/no_image.png') : asset('storage/'.$project->previewImage) }})">
                                 <div class="project--hover text-center">
                                     <h2 class="text-xl font-bold">{{ $project->name }}</h2>
                                     <h3 class="mt-3 text-md font-light">{{ $project->technoPreview }}</h3>
@@ -119,7 +119,6 @@
                     @endforeach
 
                 </div>
-
             @endif
 
         </div>
