@@ -34,7 +34,9 @@ return [
         ],
 
         'projectsSection' => [
-            'title' => 'Projets'
+            'title' => 'Projets',
+            'noProjectsFound' => 'Aucun projet pour le moment',
+            'details' => 'Détails'
         ]
 
     ],

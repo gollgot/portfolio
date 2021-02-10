@@ -91,15 +91,36 @@
 
     <!-- Projects Section -->
     <section>
-        <div class="container mx-auto mt-10">
+        <div class="container mx-auto mt-10 mb-32">
 
             <div class="text-center">
                 <h1 class="section-title">{{ __('pages.home.projectsSection.title') }}</h1>
             </div>
 
-            <div class="h-40 text-center">
-                ...
-            </div>
+            @if (count($projects) == 0)
+                <!-- No projects yet-->
+                <div class="my-10 text-center">
+                    <p>{{ __('pages.home.projectsSection.noProjectsFound') }}</p>
+                </div>
+            @else
+                <!-- Display projects -->
+                <div class="mt-5 mb-10 flex justify-around flex-wrap">
+
+                    @foreach ($projects as $project)
+                        <a href="#">
+                            <div class="project" style="background-image: url({{ asset('images/project_background_test.png') }})">
+                                <div class="project--hover text-center">
+                                    <h2 class="text-xl font-bold">{{ $project->name }}</h2>
+                                    <h3 class="mt-3 text-md font-light">{{ $project->technoPreview }}</h3>
+                                    <div class="btn__details">{{ __('pages.home.projectsSection.details') }}</div>
+                                </div>
+                            </div>
+                        </a>
+                    @endforeach
+
+                </div>
+
+            @endif
 
         </div>
     </section>

@@ -25,6 +25,34 @@ body {
     @apply text-lg font-normal;
 }
 
+
+
+.project {
+    @apply mt-5 w-80 h-48 box-border border-2 rounded-xl bg-cover bg-center;
+}
+.project--hover {
+    @apply opacity-0 p-4 text-white bg-bordeaux w-full h-full rounded-xl;
+}
+.project:hover {
+    @apply border-0;
+}
+/* Play the fadeIn animation for opacity toggle from 0 to 1. Forwards mode is to keep at the end the 100% value*/
+.project:hover > .project--hover {
+    animation: fadeIn forwards 0.5s;
+    -webkit-animation: fadeIn forwards 0.5s;
+    -moz-animation: fadeIn forwards 0.5s;
+    -o-animation: fadeIn forwards 0.5s;
+    -ms-animation: fadeIn forwards 0.5s;
+}
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+.project .btn__details {
+    @apply mt-8 px-6 py-1 border-2 font-bold border-white rounded-2xl inline-block hover:bg-white hover:text-bordeaux;
+}
+
+
 .footer-link {
     @apply rounded-full border-2 border-white flex items-center justify-center w-14 h-14 text-white text-3xl hover:bg-white hover:text-bordeaux;
 }
