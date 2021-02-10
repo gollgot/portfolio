@@ -17,10 +17,14 @@ class CreateProjectsTable extends Migration
             $table->increments('id');
             $table->string('name');
             $table->date('creationDate');
+            $table->text('description');
+            $table->string('previewImage')->nullable();
             $table->string('technoPreview', 30);
             $table->string('techno');
+            $table->text('scope');
             $table->string('sources')->nullable();
             $table->boolean('online');
+            $table->string('images')->nullable();
             $table->timestamps();
         });
     }
