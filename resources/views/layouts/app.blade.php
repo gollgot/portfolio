@@ -14,7 +14,7 @@
     <body>
 
         <!-- Switch Languages -->
-        <div class="text-right mt-4 mr-4 mb-20 font-light">
+        <div class="text-right mt-4 mr-4 font-light">
             {{-- URL : portfolio/en (home page) has only one param {lang} --}}
             {{-- URL : portfolio/en/projects/broken-feature (project page) has two params {lang} and {slug} --}}
             {{-- So, we have to generate the route with one param if $project is not set, and the route with two params if project is set --}}

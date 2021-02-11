@@ -94,7 +94,7 @@
         <div class="container mx-auto mt-10 mb-32">
 
             <div class="text-center">
-                <h1 class="section-title">{{ __('pages.home.projectsSection.title') }}</h1>
+                <h1 id="projects" class="section-title">{{ __('pages.home.projectsSection.title') }}</h1>
             </div>
 
             @if (count($projects) == 0)
@@ -106,12 +106,12 @@
                 <!-- Display projects -->
                 <div class="mt-5 mb-10 flex justify-around flex-wrap">
 
-                    @foreach ($projects as $project)
-                        <a href="{{ route('projects.show', [App::getLocale(), $project->slug]) }}">
-                            <div class="project" style="background-image: url({{ is_null($project->previewImage) ? asset('images/no_image.png') : asset('storage/'.$project->previewImage) }})">
+                    @foreach ($projects as $currentProject)
+                        <a href="{{ route('projects.show', [App::getLocale(), $currentProject->slug]) }}">
+                            <div class="project" style="background-image: url({{ is_null($currentProject->previewImage) ? asset('images/no_image.png') : asset('storage/'.$currentProject->previewImage) }})">
                                 <div class="project--hover text-center">
-                                    <h2 class="text-xl font-bold">{{ $project->name }}</h2>
-                                    <h3 class="mt-3 text-md font-light">{{ $project->technoPreview }}</h3>
+                                    <h2 class="text-xl font-bold">{{ $currentProject->name }}</h2>
+                                    <h3 class="mt-3 text-md font-light">{{ $currentProject->technoPreview }}</h3>
                                     <div class="btn__details">{{ __('pages.home.projectsSection.details') }}</div>
                                 </div>
                             </div>
