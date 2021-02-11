@@ -41,6 +41,16 @@ return [
 
     ],
 
+    'projects' => [
+
+        'detailsSection' => [
+            'scopeTitle' => 'Cadre',
+            'technologiesTitle' => 'Technologies',
+            'sourcesTitle' => 'Sources',
+        ]
+
+    ],
+
     'footer' => [
         'copyrights' => 'Fait par moi-même'
     ]

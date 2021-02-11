@@ -22,7 +22,20 @@
             <div class="mt-6 font-thin w-2/3 mx-auto">
                 {!! $project->description !!}
             </div>
+        </section>
 
+        <!-- Details Section -->
+        <section class="mt-40 mb-20">
+            <h2 class="section-subtitle">{{ __('pages.projects.detailsSection.scopeTitle') }}</h2>
+            <p class="section-text">{{ $project->scope}}</p>
+
+            <h2 class="section-subtitle mt-6">{{ __('pages.projects.detailsSection.technologiesTitle') }}</h2>
+            <p class="section-text">{{ $project->techno}}</p>
+
+            @if(!is_null($project->sources))
+                <h2 class="section-subtitle mt-6">{{ __('pages.projects.detailsSection.sourcesTitle') }}</h2>
+                <p class="section-text">{{ $project->sources}}</p>
+            @endif
         </section>
 
 

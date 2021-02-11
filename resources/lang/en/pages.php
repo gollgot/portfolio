@@ -41,6 +41,16 @@ return [
 
     ],
 
+    'projects' => [
+
+        'detailsSection' => [
+            'scopeTitle' => 'Scope',
+            'technologiesTitle' => 'Technologies',
+            'sourcesTitle' => 'Sources',
+        ]
+
+    ],
+
     'footer' => [
         'copyrights' => 'Handcrafted by me'
     ]
