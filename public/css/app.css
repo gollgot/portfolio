@@ -31674,6 +31674,22 @@ body {
   width: 3.5rem;
 }
 
+.normalize-roboto-thin-center p {
+  text-align: center !important;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 100 !important;
+}
+
+.hover-border {
+  border-color: transparent;
+  border-bottom-width: 2px;
+}
+
+.hover-border:hover {
+  --tw-border-opacity: 1;
+  border-color: rgba(164, 22, 26, var(--tw-border-opacity));
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;

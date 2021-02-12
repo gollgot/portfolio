@@ -91,7 +91,7 @@
 
     <!-- Projects Section -->
     <section>
-        <div class="container mx-auto mt-10 mb-32">
+        <div class="container mx-auto mt-10">
 
             <div class="text-center">
                 <h1 id="projects" class="section-title">{{ __('pages.home.projectsSection.title') }}</h1>

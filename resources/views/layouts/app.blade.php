@@ -9,6 +9,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
         <link href="/css/fontawesome-all.min.css" rel="stylesheet">
+        <link href="/css/baguetteBox.min.css" rel="stylesheet">
         <link href="/css/app.css" rel="stylesheet">
     </head>
     <body>
@@ -25,7 +26,7 @@
         @yield('content')
 
         <!-- Footer -->
-        <footer class="bg-bordeaux pt-20 pb-10">
+        <footer class="bg-bordeaux mt-20 pt-20 pb-10">
             <div class="container mx-auto text-center text-white font-light">
 
                 <!-- Links -->
@@ -45,5 +46,8 @@
             </div>
         </footer>
 
+
+        <script src="{{ asset('/js/baguetteBox.min.js') }}"></script>
+        @yield('js')
     </body>
 </html>

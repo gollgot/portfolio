@@ -56,3 +56,16 @@ body {
 .footer-link {
     @apply rounded-full border-2 border-white flex items-center justify-center w-14 h-14 text-white text-3xl hover:bg-white hover:text-bordeaux;
 }
+
+.normalize-roboto-thin-center p {
+    text-align: center !important;
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 100 !important;
+}
+
+.hover-border {
+    @apply border-b-2 border-transparent;
+}
+.hover-border:hover {
+    @apply border-bordeaux;
+}
