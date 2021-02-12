@@ -21,7 +21,7 @@ return [
         ],
 
         'aboutSection' => [
-            'title' => 'About',
+            'title' => 'About me',
             'quality1Title' => 'Lorem Ipsum 1',
             'quality1Text' => '1 Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
             'quality2Title' => 'Lorem Ipsum 2',

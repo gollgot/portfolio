@@ -12,16 +12,21 @@ return [
         ],
 
         'introSection' => [
-            'title' => 'Salut, moi c\'est Loïc ! Ravis de te recontrer.',
-            'subtitle' => 'FR - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at turpis arcu. Proin sit amet sapien
-                    congue, mattis leo auctor, gravida tortor. Sed dignissim, purus et viverra pulvinar, augue eros
-                    molestie elit, id rutrum arcu elit eu nulla. Vestibulum euismod non elit quis malesuada. Proin varius
-                    posuere augue, ut cursus quam euismod id. Sed bibendum orci et leo molestie, tempus posuere libero
-                    mattis. Aliquam massa libero, cursus eget tristique in, malesuada at ipsum.',
+            'title' => 'Salut, moi c\'est Loïc !',
+            'subtitle' => "Je suis actuellement en dernière année de bachelor en informatique, spécialisation logicielle,
+                            à la Haute Ecole d'Ingénierie et de Gestion du Canton de Vaud (HEIG-VD). Avant ceci j'ai
+                            commencer par effectuer un CFC d'informaticien puis, une école supérieure (ES) en développement
+                            d'applications. J'ai donc pu acquérir plusieurs expériences pratiques au sein d'entreprises,
+                            pour ensuite poursuivre des études plus poussées afin de devenir ingénieur.
+                            <br><br>
+                            Mes domaines de prédilections sont tout ce qui touche au web, plus particulièrement
+                            le backend et des applications / sites web. J'aime aussi beaucoup le développement mobile
+                            natif en Android ainsi que la conception d'APIs. Durant mes nombreux cours et mon temps libre j'ai pu réaliser plusieurs projets intéressants
+                            et variés, que je vous laisse découvrir en bas de ce portfolio.",
         ],
 
         'aboutSection' => [
-            'title' => 'A propos',
+            'title' => 'A propos de moi',
             'quality1Title' => 'Passionné',
             'quality1Text' => 'Plus qu\'un métier, une passion. Je programme depuis petit et ne cesse de m\'informer.',
             'quality2Title' => 'Persévérant',

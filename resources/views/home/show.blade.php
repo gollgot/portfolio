@@ -22,7 +22,7 @@
     <section class="bg-bordeaux text-center text-white">
         <div class="px-10 pt-24 pb-40 w-full md:w-2/3 lg:w-3/5 m-auto">
             <h1 class="text-3xl font-medium">{{ __('pages.home.introSection.title') }}</h1>
-            <h2 class="mt-10 text-lg font-normal"> {{ __('pages.home.introSection.subtitle') }} </h2>
+            <h2 class="mt-10 text-lg font-normal"> {!! __('pages.home.introSection.subtitle') !!} </h2>
         </div>
     </section>
 
