@@ -41,7 +41,7 @@
                 </div>
 
                 <!-- Copyrights -->
-                <span>{{ __('pages.footer.copyrights') }} © {{ now()->year }}</span>
+                <span> {{ __('pages.footer.copyrightsPart1') }}&nbsp; <i class="text-white fas fa-heart"></i> &nbsp;{{ __('pages.footer.copyrightsPart2') }} © {{ now()->year }}</span>
 
             </div>
         </footer>

@@ -52,7 +52,8 @@ return [
     ],
 
     'footer' => [
-        'copyrights' => 'Fait par moi-même'
+        'copyrightsPart1' => 'Fait avec',
+        'copyrightsPart2' => 'par moi-même'
     ]
 
 ];

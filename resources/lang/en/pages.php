@@ -52,7 +52,8 @@ return [
     ],
 
     'footer' => [
-        'copyrights' => 'Handcrafted by me'
+        'copyrightsPart1' => 'Handcrafted with',
+        'copyrightsPart2' => 'by me'
     ]
 
 ];
