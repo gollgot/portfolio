@@ -63,7 +63,7 @@
                     <i class="text-bordeaux text-3xl mr-6 mt-2 fas fa-code"></i>
                     <div>
                         <h2 class="section-subtitle">{{ __('pages.home.aboutSection.languagesTitle') }}</h2>
-                        <p class="section-text">C, C++, Java, PHP, Go, HTML, CSS, Javascript</p>
+                        <p class="section-text">{{ is_null($languages) ? '-' : $languages->value }}</p>
                     </div>
                 </div>
 
@@ -72,7 +72,7 @@
                     <i class="text-bordeaux text-3xl mr-6 mt-2 xl:ml-6 xl:mr-0 fas fa-toolbox"></i>
                     <div>
                         <h2 class="section-subtitle">{{ __('pages.home.aboutSection.frameworksTitle') }}</h2>
-                        <p class="section-text">Laravel, Symfony, Slim, Lumen, Bootstrap, Tailwind</p>
+                        <p class="section-text">{{ is_null($frameworks) ? '-' : $frameworks->value }}</p>
                     </div>
                 </div>
 
@@ -81,7 +81,7 @@
                     <i class="text-bordeaux text-3xl mr-6 mt-2 fas fa-tools"></i>
                     <div>
                         <h2 class="section-subtitle">{{ __('pages.home.aboutSection.toolsTitle') }}</h2>
-                        <p class="section-text">Jetbrains, Figma, Postman, GitKraken, Github, Gitlab</p>
+                        <p class="section-text">{{ is_null($tools) ? '-' : $tools->value }}</p>
                     </div>
                 </div>
             </div>
