@@ -28,7 +28,7 @@
 
     <!-- About Section -->
     <section class="px-4">
-        <div class="container mx-auto -mt-12 py-10 p-16 bg-white shadow-lg rounded-3xl">
+        <div class="container mx-auto -mt-16 py-10 p-16 bg-white shadow-lg rounded-3xl">
 
             <div class="text-center">
                 <h1 class="section-title">{{ __('pages.home.aboutSection.title') }}</h1>
