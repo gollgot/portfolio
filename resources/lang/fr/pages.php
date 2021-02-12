@@ -22,12 +22,12 @@ return [
 
         'aboutSection' => [
             'title' => 'A propos',
-            'quality1Title' => 'FR - Lorem Ipsum 1',
-            'quality1Text' => 'FR - 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-            'quality2Title' => 'FR - Lorem Ipsum 2',
-            'quality2Text' => 'FR - 2 Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-            'quality3Title' => 'FR - Lorem Ipsum 3',
-            'quality3Text' => 'FR - 3 Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+            'quality1Title' => 'Passionné',
+            'quality1Text' => 'Plus qu\'un métier, une passion. Je programme depuis petit et ne cesse de m\'informer.',
+            'quality2Title' => 'Persévérant',
+            'quality2Text' => 'Je ne m\'arrête pas au minimum et cherche à faire toujours mieux.',
+            'quality3Title' => 'Ambitieux',
+            'quality3Text' => 'Je regarde au loin et met tout en oeuvre pour atteindre mes objectifs.',
             'languagesTitle' => 'Langues que je parle',
             'frameworksTitle' => 'Frameworks / Librairies',
             'toolsTitle' => 'Outils'

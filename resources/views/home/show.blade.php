@@ -44,13 +44,13 @@
                 </div>
 
                 <div class="quality">
-                    <img class="m-auto w-24" src="{{ asset('images/quality1.png') }}" alt="Quality-heart">
+                    <img class="m-auto w-24" src="{{ asset('images/quality2.png') }}" alt="Quality-heart">
                     <h2 class="mt-6 section-subtitle">{{ __('pages.home.aboutSection.quality2Title') }}</h2>
                     <p class="section-text mt-2">{{ __('pages.home.aboutSection.quality2Text') }}</p>
                 </div>
 
                 <div class="quality">
-                    <img class="m-auto w-24" src="{{ asset('images/quality1.png') }}" alt="Quality-heart">
+                    <img class="m-auto w-24" src="{{ asset('images/quality3.png') }}" alt="Quality-heart">
                     <h2 class="mt-6 section-subtitle">{{ __('pages.home.aboutSection.quality3Title') }}</h2>
                     <p class="section-text mt-2">{{ __('pages.home.aboutSection.quality3Text') }}</p>
                 </div>
