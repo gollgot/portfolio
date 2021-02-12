@@ -7,21 +7,21 @@ return [
         'pageTitle' => 'Accueil',
 
         'heroSection' => [
-            'title' => 'Etudiant bachelor en ingénierie logicielle',
-            'subtitle' => 'Je réalise des belles applications, et j\'aime ça !',
+            'title' => 'Etudiant en bachelor, ingénierie logicielle',
+            'subtitle' => 'Je réalise des applications trop cool !',
         ],
 
         'introSection' => [
             'title' => 'Salut, moi c\'est Loïc !',
             'subtitle' => "Je suis actuellement en dernière année de bachelor en informatique, spécialisation logicielle,
-                            à la Haute Ecole d'Ingénierie et de Gestion du Canton de Vaud (HEIG-VD). Avant ceci j'ai
-                            commencer par effectuer un CFC d'informaticien puis, une école supérieure (ES) en développement
+                            à la Haute Ecole d'Ingénierie et de Gestion du Canton de Vaud (HEIG-VD). Avant cette formation, j'ai
+                            commencé par effectuer un CFC d'informaticien puis, une école supérieure (ES) en développement
                             d'applications. J'ai donc pu acquérir plusieurs expériences pratiques au sein d'entreprises,
                             pour ensuite poursuivre des études plus poussées afin de devenir ingénieur.
                             <br><br>
-                            Mes domaines de prédilections sont tout ce qui touche au web, plus particulièrement
-                            le backend et des applications / sites web. J'aime aussi beaucoup le développement mobile
-                            natif en Android ainsi que la conception d'APIs. Durant mes nombreux cours et mon temps libre j'ai pu réaliser plusieurs projets intéressants
+                            Mes domaines de prédilection sont tout ceux qui touchent au web, plus particulièrement
+                            le back-end et des applications / sites web. J'aime aussi beaucoup le développement mobile
+                            natif en Android ainsi que la conception d'APIs. Durant mes nombreux cours et mon temps libre, j'ai pu réalisé plusieurs projets intéressants
                             et variés, que je vous laisse découvrir en bas de ce portfolio.",
         ],
 
