@@ -59,7 +59,7 @@
 
             <div class="w-3/4 m-auto">
                 <!-- Languages -->
-                <div class="mt-10 flex">
+                <div class="mt-10 flex xl:w-1/2">
                     <i class="text-bordeaux text-3xl mr-6 mt-2 fas fa-code"></i>
                     <div>
                         <h2 class="section-subtitle">{{ __('pages.home.aboutSection.languagesTitle') }}</h2>
@@ -68,16 +68,19 @@
                 </div>
 
                 <!-- Frameworks -->
-                <div class="flex mt-6 xl:mt-4 xl:text-right xl:flex-row-reverse">
-                    <i class="text-bordeaux text-3xl mr-6 mt-2 xl:ml-6 xl:mr-0 fas fa-toolbox"></i>
-                    <div>
-                        <h2 class="section-subtitle">{{ __('pages.home.aboutSection.frameworksTitle') }}</h2>
-                        <p class="section-text">{{ is_null($frameworks) ? '-' : $frameworks->value }}</p>
+                <div class="flex">
+                    <div class="invisible xl:visible xl:w-1/2"></div>
+                    <div class="flex mt-6 xl:mt-4 xl:text-right xl:flex-row-reverse xl:w-1/2">
+                        <i class="text-bordeaux text-3xl mr-6 mt-2 xl:ml-6 xl:mr-0 fas fa-toolbox"></i>
+                        <div>
+                            <h2 class="section-subtitle">{{ __('pages.home.aboutSection.frameworksTitle') }}</h2>
+                            <p class="section-text">{{ is_null($frameworks) ? '-' : $frameworks->value }}</p>
+                        </div>
                     </div>
                 </div>
 
                 <!-- Tools -->
-                <div class="mt-6 flex xl:mt-4">
+                <div class="mt-6 flex xl:mt-4 xl:w-1/2">
                     <i class="text-bordeaux text-3xl mr-6 mt-2 fas fa-tools"></i>
                     <div>
                         <h2 class="section-subtitle">{{ __('pages.home.aboutSection.toolsTitle') }}</h2>
