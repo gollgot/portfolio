@@ -28,14 +28,14 @@
 
     <!-- About Section -->
     <section class="px-4">
-        <div class="container mx-auto -mt-16 py-10 p-16 bg-white shadow-lg rounded-3xl">
+        <div class="container mx-auto -mt-16 py-10 p-6 md:p-16 bg-white shadow-lg rounded-3xl">
 
             <div class="text-center">
                 <h1 class="section-title">{{ __('pages.home.aboutSection.title') }}</h1>
             </div>
 
             <!-- Qualitites -->
-            <div class="lg:flex lg:flex-wrap px-6 md:px-20 mt-6 text-center border-b-2 border-dotted pb-6">
+            <div class="lg:flex lg:flex-wrap px-0 md:px-20 mt-6 text-center border-b-2 border-dotted pb-6">
 
                 <div class="quality">
                     <img class="m-auto w-24" src="{{ asset('images/quality1.png') }}" alt="Quality-heart">
@@ -57,12 +57,12 @@
 
             </div>
 
-            <div class="w-3/4 m-auto">
+            <div class="w-full md:w-3/4 m-auto">
                 <!-- Languages -->
-                <div class="mt-10 flex xl:w-1/2">
-                    <i class="text-bordeaux text-3xl mr-6 mt-2 fas fa-code"></i>
+                <div class="mt-10 md:flex text-center md:text-left xl:w-1/2">
+                    <i class="text-bordeaux text-3xl md:mr-6 mt-2 fas fa-code"></i>
                     <div>
-                        <h2 class="section-subtitle">{{ __('pages.home.aboutSection.languagesTitle') }}</h2>
+                        <h2 class="section-subtitle text-center mb-2 md:mb-0 md:text-left">{{ __('pages.home.aboutSection.languagesTitle') }}</h2>
                         <p class="section-text">{{ is_null($languages) ? '-' : $languages->value }}</p>
                     </div>
                 </div>
@@ -70,20 +70,20 @@
                 <!-- Frameworks -->
                 <div class="flex">
                     <div class="invisible xl:visible xl:w-1/2"></div>
-                    <div class="flex mt-6 xl:mt-4 xl:text-right xl:flex-row-reverse xl:w-1/2">
-                        <i class="text-bordeaux text-3xl mr-6 mt-2 xl:ml-6 xl:mr-0 fas fa-toolbox"></i>
+                    <div class="md:flex mt-6 text-center md:text-left xl:mt-4 xl:text-right xl:flex-row-reverse xl:w-1/2">
+                        <i class="text-bordeaux text-3xl md:mr-6 mt-2 xl:ml-6 xl:mr-0 fas fa-toolbox"></i>
                         <div>
-                            <h2 class="section-subtitle">{{ __('pages.home.aboutSection.frameworksTitle') }}</h2>
+                            <h2 class="section-subtitle mb-2 md:mb-0">{{ __('pages.home.aboutSection.frameworksTitle') }}</h2>
                             <p class="section-text">{{ is_null($frameworks) ? '-' : $frameworks->value }}</p>
                         </div>
                     </div>
                 </div>
 
                 <!-- Tools -->
-                <div class="mt-6 flex xl:mt-4 xl:w-1/2">
-                    <i class="text-bordeaux text-3xl mr-6 mt-2 fas fa-tools"></i>
+                <div class="mt-6 md:flex xl:mt-4 text-center md:text-left xl:w-1/2">
+                    <i class="text-bordeaux text-3xl md:mr-6 mt-2 fas fa-tools"></i>
                     <div>
-                        <h2 class="section-subtitle">{{ __('pages.home.aboutSection.toolsTitle') }}</h2>
+                        <h2 class="section-subtitle text-center mb-2 md:mb-0 md:text-left">{{ __('pages.home.aboutSection.toolsTitle') }}</h2>
                         <p class="section-text">{{ is_null($tools) ? '-' : $tools->value }}</p>
                     </div>
                 </div>

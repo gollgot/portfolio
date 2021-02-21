@@ -31546,10 +31546,17 @@ body {
 
 .quality {
   flex: 1 1 0%;
+  padding-left: 0px;
+  padding-right: 0px;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
+}
+
+@media (min-width: 768px) {
+  .quality {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
 }
 
 .section-subtitle {
