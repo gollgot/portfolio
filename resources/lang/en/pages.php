@@ -12,22 +12,29 @@ return [
         ],
 
         'introSection' => [
-            'title' => 'Hi, I’m Loïc. Nice to meet you.',
-            'subtitle' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at turpis arcu. Proin sit amet sapien
-                    congue, mattis leo auctor, gravida tortor. Sed dignissim, purus et viverra pulvinar, augue eros
-                    molestie elit, id rutrum arcu elit eu nulla. Vestibulum euismod non elit quis malesuada. Proin varius
-                    posuere augue, ut cursus quam euismod id. Sed bibendum orci et leo molestie, tempus posuere libero
-                    mattis. Aliquam massa libero, cursus eget tristique in, malesuada at ipsum.',
+            'title' => "Hi, I'm Loïc. Nice to meet you.",
+            'subtitle' => " I'm currently in my last year of bachelor in computer science at School of Management
+                            and Engineering Vaud (HEIG-VD) in specialization software engineering.
+                            Before this training, I started by a CFC as a computer scientist, then I carried out with
+                            studies in a technical college (ES) in applications' development. I was able to acquire a lot of
+                            practical experience within different companies. Afterwards, I pursued my studies in order to
+                            become an engineer.
+                            <br><br>
+                            My favorite fields are all those related to the web, more particularly the backend, web
+                            applications and websites. I also really like native Android mobile development and API design.
+                            During my many lessons and my free time, I was able to carry out several interesting and
+                            varied projects, which I let you discover at the bottom of this portfolio.",
         ],
 
         'aboutSection' => [
             'title' => 'About me',
-            'quality1Title' => 'Lorem Ipsum 1',
-            'quality1Text' => '1 Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-            'quality2Title' => 'Lorem Ipsum 2',
-            'quality2Text' => '2 Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-            'quality3Title' => 'Lorem Ipsum 3',
-            'quality3Text' => '3 Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+            'quality1Title' => 'Passionate',
+            'quality1Text' => "More than a job, a passion. I have been programming since I was little and I keep informing
+            myself on everything that is new.",
+            'quality2Title' => 'Persistent',
+            'quality2Text' => "I do not stop at the minimum. I always try to do more.",
+            'quality3Title' => 'Ambitious',
+            'quality3Text' => "I always look forward and do everything to achieve my goals.",
             'languagesTitle' => 'Languages I speak',
             'frameworksTitle' => 'Frameworks / Librairies',
             'toolsTitle' => 'Tools'
