@@ -19,7 +19,8 @@
         <!-- Intro Section -->
         <section class="text-center">
             <h1 class="mt-6 text-4xl font-bold">{{ $project->name }}</h1>
-            <div class="mt-6 normalize-roboto-thin-center w-2/3 mx-auto">
+            <h3 class="font-thin">{{ date('d-m-Y', strtotime($project->creationDate)) }}</h3>
+            <div class="mt-6 normalize-roboto-light-center w-2/3 mx-auto">
                 {!! $project->description !!}
             </div>
         </section>
@@ -42,14 +43,14 @@
         <!-- Details Section -->
         <section class="mt-10 text-center">
             <h2 class="mt-6 section-subtitle">{{ __('pages.projects.detailsSection.scopeTitle') }}</h2>
-            <p class="section-text">{{ $project->scope}}</p>
+            <p class="text-lg font-light">{{ $project->scope}}</p>
 
             <h2 class="section-subtitle mt-6">{{ __('pages.projects.detailsSection.technologiesTitle') }}</h2>
-            <p class="section-text">{{ $project->techno}}</p>
+            <p class="text-lg font-light">{{ $project->techno}}</p>
 
             @if(!is_null($project->sources))
                 <h2 class="section-subtitle mt-6">{{ __('pages.projects.detailsSection.sourcesTitle') }}</h2>
-                <a class="section-text" href="{{ $project->sources}}" target="_blank">{{ $project->sources}}</a>
+                <a class="text-lg font-light" href="{{ $project->sources}}" target="_blank">{{ $project->sources}}</a>
             @endif
         </section>
 
