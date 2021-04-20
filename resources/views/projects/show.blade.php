@@ -48,6 +48,11 @@
             <h2 class="section-subtitle mt-6">{{ __('pages.projects.detailsSection.technologiesTitle') }}</h2>
             <p class="text-lg font-light">{{ $project->techno}}</p>
 
+            @if(!is_null($project->website))
+                <h2 class="section-subtitle mt-6">{{ __('pages.projects.detailsSection.websiteTitle') }}</h2>
+                <a class="text-lg font-light" href="{{ $project->website}}" target="_blank">{{ $project->website}}</a>
+            @endif
+
             @if(!is_null($project->sources))
                 <h2 class="section-subtitle mt-6">{{ __('pages.projects.detailsSection.sourcesTitle') }}</h2>
                 <a class="text-lg font-light" href="{{ $project->sources}}" target="_blank">{{ $project->sources}}</a>

@@ -54,6 +54,7 @@ return [
             'scopeTitle' => 'Scope',
             'technologiesTitle' => 'Technologies',
             'sourcesTitle' => 'Sources',
+            'websiteTitle' => 'Web address'
         ]
 
     ],

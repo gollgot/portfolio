@@ -52,6 +52,7 @@ return [
             'scopeTitle' => 'Cadre',
             'technologiesTitle' => 'Technologies',
             'sourcesTitle' => 'Sources',
+            'websiteTitle' => 'Adresse web'
         ]
 
     ],
